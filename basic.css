@@ -1,10 +1,15 @@
 .container > div {
+	/*using flex box*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: 2em;
 	color: #ffdab9; 
 	border: solid black 1px;
 }
 
 html, body {
+	font-family: arial;
 	background-color: #ffdab9;
 	margin: 10px;
 }
